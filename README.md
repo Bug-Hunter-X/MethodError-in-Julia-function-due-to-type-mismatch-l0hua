@@ -1,0 +1,2 @@
+# Julia MethodError: Type Mismatch
+This example demonstrates a common error in Julia: the `MethodError` that arises from passing an argument of an unexpected type to a function.  The `my_function` expects a numeric value (Int, Float, etc.), but when a String is provided,  Julia cannot find a method to handle the exponentiation (`^`) operation between a String and an integer. The solution involves adding type checking or using a more robust approach to handle different input types.
